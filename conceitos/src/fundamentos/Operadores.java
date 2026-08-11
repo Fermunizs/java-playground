@@ -14,9 +14,9 @@ public class Operadores {
         System.out.print("Digite o segundo número: ");
         int n2 = sc.nextInt();
 
-//PRIMEIRA LINHA DO MATH
-        int s = n1 + n2;
-        System.out.print("O resultado da soma eh: " + s);
+//PRIMEIRA LINHA DO MATH MEU AMOR
+//        int s = n1 + n2;
+//        System.out.print("O resultado da soma eh: " + s);
 
         sc.close();
     }
