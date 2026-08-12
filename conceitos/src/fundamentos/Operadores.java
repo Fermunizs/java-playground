@@ -40,7 +40,7 @@ public class Operadores {
         System.out.println("Escolha a operação: ");
         System.out.println("[+] Adição");
         System.out.println("[-] Subtração");
-        System.out.println("[*] Multiplicacao]");
+        System.out.println("[*] Multiplicação");
         System.out.println("[/] Divisão");
         System.out.println("Selecione o símbolo da operação");
         char op = sc.next().charAt(0);
