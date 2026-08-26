@@ -161,17 +161,37 @@ public class CadastroCliente {
                 }
 
             } else{
-                System.out.println("--- BEM-VINDO " + clienteLogado.nome + " ---");
+                System.out.println("--- BEM-VINDO(A) " + clienteLogado.nome + " ---");
                 System.out.print("[1] - Verificar saldo atual");
                 System.out.print("[2] - Realizar depósito");
                 System.out.print("[3] - Realizar saque");
                 System.out.print("[4] - Sair");
                 System.out.println("Selecione a opção que deseja realizar: ");
-                int opcao = Integer.parseInt(sc.nextLine());
+
             }
-            while(!sc.hasNextInt){
+            while(!sc.hasNextInt()){
                 System.out.println("Opção inválida! Digite novamente!");
                 sc.next();
+            }
+            int opcao = Integer.parseInt(sc.nextLine());
+
+            switch (opcao){
+                case 1:
+                    System.out.print("Seu saldo atual é de R$" + clienteLogado.saldo + ".");
+                    solicitarVoltarOuSair(sc);
+                    break;
+                case 2:
+                    System.out.print("Digite o valor do depósito que deseja realizar(apenas números): R$");
+                    try {
+                        double dep = Double.parseDouble(sc.nextLine());
+                        if(dep > 0){
+                            clienteLogado.saldo += dep;
+                            System.out.println("Seu novo saldo é de R$" + clienteLogado.saldo + ".");
+
+                        }
+                    }
+
+
             }
         }
     }
