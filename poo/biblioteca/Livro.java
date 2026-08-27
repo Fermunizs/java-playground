@@ -7,6 +7,10 @@ public class Livro {
     private String generoLivro;
     private Boolean livroDisponivel;
 
+    public static void main(String[] args){
+
+    }
+
     public livro(String nomeAutor, String generoLivro, int anoLivro, String nomeLivro) {
         this.nomeLivro = nomeLivro;
         this.nomeAutor = nomeAutor;
