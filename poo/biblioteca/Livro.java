@@ -8,10 +8,10 @@ public class Livro {
     private Boolean livroDisponivel;
 
     public static void main(String[] args){
-
+        System.out.print("Livro aberto");
     }
 
-    public livro(String nomeAutor, String generoLivro, int anoLivro, String nomeLivro) {
+    public Livro(String nomeLivro, String nomeAutor, String generoLivro, int anoLivro) {
         this.nomeLivro = nomeLivro;
         this.nomeAutor = nomeAutor;
         this.generoLivro = generoLivro;
