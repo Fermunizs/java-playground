@@ -7,7 +7,7 @@ public class Despesa {
     private String data;
     private String formaPagamento;
 
-    public Despesa(String descricao, double valor) {
+    public class Despesa(String descricao, double valor) {
         this.categoria = categoria;
         this.descricao = descricao;
         this.valor = valor;
