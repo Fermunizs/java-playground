@@ -1,33 +1,33 @@
 package model;
 
 public class Despesa {
-    private String categoria;
-    private String descricao;
-    private double valor;
-    private String data;
+    private String categoriaDespesa;
+    private String descricaoDespesa;
+    private double valorDespesa;
+    private String dataDespesa;
     private String formaPagamento;
 
-    public class Despesa(String descricao, double valor) {
-        this.categoria = categoria;
-        this.descricao = descricao;
-        this.valor = valor;
-        this.data = data;
+    public void Despesa(String categoriaDespesa, String descricaoDespesa, double valorDespesa, String dataDespesa, String formaPagamento ) {
+        this.categoriaDespesa = categoriaDespesa;
+        this.descricaoDespesa = descricaoDespesa;
+        this.valorDespesa = valorDespesa;
+        this.dataDespesa = dataDespesa;
         this.formaPagamento = formaPagamento;
     }
 
     public String getCategoria() {
-        return categoria;
+        return categoriaDespesa;
     }
 
     public void setCategoria(String categoria) {
-        this.categoria = categoria;
+        this.categoriaDespesa = categoria;
     }
 
     public void setDescricao(String novaDescricao) {
-        this.descricao = novaDescricao;
+        this.descricaoDespesa = novaDescricao;
     }
 
     public String getDespesa() {
-        return categoria + descricao + data + formaPagamento;
+        return categoriaDespesa + descricaoDespesa + dataDespesa + formaPagamento;
     }
 }

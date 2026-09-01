@@ -1,33 +1,33 @@
 package model;
 
 public class Usuario{
-    private String nome;
-    private String email;
-    private Integer idade;
-    private Double saldo;
+    private String nomeUsuario;
+    private String emailUsuario;
+    private Integer idadeUsuario;
+    private Double saldoUsuario;
     private String cpf;
-    private String senha;
+    private String senhaUsuario;
 
-    public void Usuario(String nome, String email, Integer idade, Double saldo, String cpf, String senha){
-        this.nome = nome;
-        this.email = email;
-        this.idade = idade;
-        this.saldo = saldo;
+    public void Usuario(String nomeUsuario, String emailUsuario, Integer idadeUsuario, Double saldoUsuario, String cpf, String senhaUsuario) {
+        this.nomeUsuario = nomeUsuario;
+        this.emailUsuario = emailUsuario;
+        this.idadeUsuario = idadeUsuario;
+        this.saldoUsuario = saldoUsuario;
         this.cpf = cpf;
-        this.senha = senha;
+        this.senhaUsuario = senhaUsuario;
     }
 
     //GETTERS E SETTERS
 
-    public String getSaldo(){
-        return saldo.toString();
+    public String getSaldoUsuario(){
+        return saldoUsuario.toString();
     }
     public String getNome(){
-        return nome;
+        return nomeUsuario;
     }
     public String getEmail(String novoEmail){
-        this.email = novoEmail;
-        return email;
+        this.emailUsuario = novoEmail;
+        return emailUsuario;
     }
 
 }

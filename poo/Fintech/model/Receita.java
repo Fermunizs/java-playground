@@ -1,31 +1,33 @@
 package model;
 
 public class Receita{
-    private String nome;
-    private String descricao;
-    private String categoria;
-    private double valor;
-    private String data;
-    private String tipo;
+    private String nomeReceita;
+    private String descricaoReceita;
+    private String categoriaReceita;
+    private double valorReceita;
+    private String dataReceita;
+    private String tipoReceita;
 
-    public void Receita(String nome, String descricao, String categoria, Double valor, String data, String tipo){
-        this.nome = nome;
-        this.descricao = descricao;
-        this.categoria = categoria;
-        this.valor = valor;
-        this.data = data;
-        this.tipo = tipo;
+    public void Receita(String nomeReceita, String descricaoReceita, String categoriaReceita, Double valorReceita, String dataReceita, String tipoReceita) {
+        this.nomeReceita = nomeReceita;
+        this.descricaoReceita = descricaoReceita;
+        this.categoriaReceita = categoriaReceita;
+        this.valorReceita = valorReceita;
+        this.dataReceita = dataReceita;
+        this.tipoReceita = tipoReceita;
     }
 
     public String getReceita() {
-        return nome + descricao + categoria + data + tipo + valor;
+        return nomeReceita + descricaoReceita + categoriaReceita + dataReceita + tipoReceita + valorReceita;
     }
 
     public String setInformcacoes(String novoNome, String novaDescricao, String novaCategoria, String novaData, String novoTipo){
-        this.nome = novoNome;
-        this.descricao = novaDescricao;
-        this.categoria = novaCategoria;
-        this.data = novaData;
-        this.tipo = novoTipo;
+        this.nomeReceita = novoNome;
+        this.descricaoReceita = novaDescricao;
+        this.categoriaReceita = novaCategoria;
+        this.dataReceita = novaData;
+        this.tipoReceita = novoTipo;
+
+        return this.getReceita();
     }
 }
