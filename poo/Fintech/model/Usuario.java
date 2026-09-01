@@ -15,6 +15,8 @@ public class Usuario{
         this.saldoUsuario = saldoUsuario;
         this.cpf = cpf;
         this.senhaUsuario = senhaUsuario;
+
+        System.out.print("O construtor está sendo executado.");
     }
 
     //GETTERS E SETTERS
