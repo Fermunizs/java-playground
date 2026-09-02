@@ -7,7 +7,7 @@ public class Despesa {
     private String dataDespesa;
     private String formaPagamento;
 
-    public void Despesa(String categoriaDespesa, String descricaoDespesa, double valorDespesa, String dataDespesa, String formaPagamento ) {
+    public Despesa(String categoriaDespesa, String descricaoDespesa, double valorDespesa, String dataDespesa, String formaPagamento ) {
         this.categoriaDespesa = categoriaDespesa;
         this.descricaoDespesa = descricaoDespesa;
         this.valorDespesa = valorDespesa;

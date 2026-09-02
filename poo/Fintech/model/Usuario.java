@@ -8,7 +8,7 @@ public class Usuario{
     private String cpf;
     private String senhaUsuario;
 
-    public void Usuario(String nomeUsuario, String emailUsuario, Integer idadeUsuario, Double saldoUsuario, String cpf, String senhaUsuario) {
+    public Usuario(String nomeUsuario, String emailUsuario, Integer idadeUsuario, Double saldoUsuario, String cpf, String senhaUsuario) {
         this.nomeUsuario = nomeUsuario;
         this.emailUsuario = emailUsuario;
         this.idadeUsuario = idadeUsuario;

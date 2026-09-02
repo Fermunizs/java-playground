@@ -8,7 +8,7 @@ public class Receita{
     private String dataReceita;
     private String tipoReceita;
 
-    public void Receita(String nomeReceita, String descricaoReceita, String categoriaReceita, Double valorReceita, String dataReceita, String tipoReceita) {
+    public Receita(String nomeReceita, String descricaoReceita, String categoriaReceita, Double valorReceita, String dataReceita, String tipoReceita) {
         this.nomeReceita = nomeReceita;
         this.descricaoReceita = descricaoReceita;
         this.categoriaReceita = categoriaReceita;

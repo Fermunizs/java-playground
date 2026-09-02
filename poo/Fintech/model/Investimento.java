@@ -7,7 +7,7 @@ public class Investimento {
     private String tipoInvestimento;
     private String dataInvestimento;
 
-    public void Investimento(String descricaoInvestimento, double valorInvestido, double rentabilidade, String tipoInvestimento, String dataInvestimento) {
+    public Investimento(String descricaoInvestimento, double valorInvestido, double rentabilidade, String tipoInvestimento, String dataInvestimento) {
         this.descricaoInvestimento = descricaoInvestimento;
         this.valorInvestido = valorInvestido;
         this.rentabilidade = rentabilidade;
