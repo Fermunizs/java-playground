@@ -27,7 +27,7 @@ public class Usuario{
     public String getNome(){
         return nomeUsuario;
     }
-    public String getEmail(String novoEmail){
+    public String setEmail(String novoEmail){
         this.emailUsuario = novoEmail;
         return emailUsuario;
     }
