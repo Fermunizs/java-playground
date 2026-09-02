@@ -15,6 +15,8 @@ public class Receita{
         this.valorReceita = valorReceita;
         this.dataReceita = dataReceita;
         this.tipoReceita = tipoReceita;
+
+        System.out.print("Construtor Receita executado.");
     }
 
     public String getReceita() {
@@ -27,6 +29,8 @@ public class Receita{
         this.categoriaReceita = novaCategoria;
         this.dataReceita = novaData;
         this.tipoReceita = novoTipo;
+
+        System.out.print("Método setInformacoes() executado.");
 
         return this.getReceita();
     }

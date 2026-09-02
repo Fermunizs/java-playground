@@ -13,6 +13,8 @@ public class Investimento {
         this.rentabilidade = rentabilidade;
         this.tipoInvestimento = tipoInvestimento;
         this.dataInvestimento = dataInvestimento;
+
+        System.out.print("Construtor Investimento executado.");
     }
 
     public String getDescricao() {
@@ -21,6 +23,7 @@ public class Investimento {
 
     public void setDescricao(String novaDescricao) {
         this.descricaoInvestimento = novaDescricao;
+        System.out.print("Método setDescricao() executado.");
     }
 
     public double getValorInvestido() {

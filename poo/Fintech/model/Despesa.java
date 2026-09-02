@@ -13,6 +13,8 @@ public class Despesa {
         this.valorDespesa = valorDespesa;
         this.dataDespesa = dataDespesa;
         this.formaPagamento = formaPagamento;
+
+        System.out.print("Construtor Despesa executado.");
     }
 
     public String getCategoria() {
@@ -21,10 +23,12 @@ public class Despesa {
 
     public void setCategoria(String categoria) {
         this.categoriaDespesa = categoria;
+        System.out.print("Método setCategoria() executado.");
     }
 
     public void setDescricao(String novaDescricao) {
         this.descricaoDespesa = novaDescricao;
+        System.out.print("Método setDescricao() executado.");
     }
 
     public String getDespesa() {

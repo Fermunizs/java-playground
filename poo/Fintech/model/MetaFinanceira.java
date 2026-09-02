@@ -13,6 +13,8 @@ public class MetaFinanceira  {
         this.dataMetaFinanceira = dataMetaFinanceira;
         this.valorObjetivo = valorObjetivo;
         this.valorAtualObjetivo = valorAtualObjetivo;
+
+        System.out.print("Construtor MetaFinanceira executado.");
     }
 
     public String getNomeMetaFinanceira() {
@@ -21,6 +23,7 @@ public class MetaFinanceira  {
 
     public void setNomeMetaFinanceira(String nomeMetaFinanceira) {
         this.nomeMetaFinanceira = nomeMetaFinanceira;
+        System.out.print("Método setNomeMetaFinanceira() executado.");
     }
 
     public double getValorAtualObjetivo() {
